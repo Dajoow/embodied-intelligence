@@ -15,7 +15,7 @@ Learn the open-source courses of DataWhale
         Q1：更换路径：先创建habita_data目录，再更换路径
         (habitat) dj@DESKTOP-BKHQM7M:~$ mkdir -p ~/habitat_data
         (habitat) dj@DESKTOP-BKHQM7M:~$ python -m habitat_sim.utils.datasets_download --uids habitat_test_scenes --data-path ~/habitat_data
-        Q2:Q1解决后还是不行，下载了git-lf后解决
+        Q2:Q1解决后还是不行，下载了git-lfs后解决
          sudo apt update
          sudo apt install git-lfs
          git lfs install
